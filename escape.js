@@ -1,6 +1,6 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const updated = numbers.filter(element => element > 6);
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
-console.log( "A" - "B" + "2");
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-console.log("0 || 1 = "+(0 || 1));
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const repositoryRootPath = path.resolve(__dirname, '..');
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log("0 && 1 = "+(0 && 1));
+const randomString = () => Math.random().toString(36).slice(2);
+const randomBoolean = () => Math.random() >= 0.5;
