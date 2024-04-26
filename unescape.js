@@ -1,3 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const isArray = (arr) => Array.isArray(arr);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
