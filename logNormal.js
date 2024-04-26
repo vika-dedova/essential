@@ -1,2 +1,2 @@
-var arr3 = "jones".split('');
-const arrayContains = (arr, element) => arr.includes(element);
+console.log( "A" - "B" + 2);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
