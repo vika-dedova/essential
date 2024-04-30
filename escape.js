@@ -1,1 +1,1 @@
-const merge = [...new Set([...a, ...b])];
+const arrayContains = (arr, element) => arr.includes(element);
