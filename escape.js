@@ -1,3 +1,2 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const isEmptyArray = arr => !arr.length;
-const channel = getChannel(computedAppVersion);
+var arr2 = arr1.reverse();
+const merge = (a, b) => [...a, ...b];
