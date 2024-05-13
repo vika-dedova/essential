@@ -1,2 +1,3 @@
-var arr2 = arr1.reverse();
-const merge = (a, b) => [...a, ...b];
+const channel = getChannel(computedAppVersion);
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
