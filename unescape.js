@@ -1,2 +1,2 @@
-const isEven = (num) => num % 2 === 0;
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const fullName = name || 'buddy';
