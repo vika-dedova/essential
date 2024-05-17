@@ -1,2 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const merge = (a, b) => a.concat(b);
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log( "A" - "B" + "2");
