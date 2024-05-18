@@ -1,2 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const appName = getAppName(channel);
+console.log("0 && 1 = "+(0 && 1));
