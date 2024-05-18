@@ -1,3 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const appName = getAppName(channel);
