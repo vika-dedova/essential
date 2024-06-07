@@ -1,3 +1,3 @@
-console.log(false == '0');
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
