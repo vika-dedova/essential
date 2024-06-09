@@ -1,3 +1,3 @@
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const isEmptyArray = arr => !arr.length;
