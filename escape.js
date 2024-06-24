@@ -1,3 +1,3 @@
-const fullName = name || 'buddy';
-var arr2 = arr1.reverse();
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const channel = getChannel(computedAppVersion);
+console.log(1 +  +"2" + "2");
