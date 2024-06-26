@@ -1,2 +1,3 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const channelName = getChannelName(channel);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const getRandomBoolean = () => Math.random() >= 0.5;
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
