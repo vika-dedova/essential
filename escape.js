@@ -1,2 +1,2 @@
-const merge = (a, b) => a.concat(b);
-const isEven = (num) => num % 2 === 0;
+console.log( "A" - "B" + "2");
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
