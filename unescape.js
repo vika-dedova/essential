@@ -1,2 +1,2 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+console.log("1 || 2 = "+(1 || 2));
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
