@@ -1,2 +1,2 @@
-console.log( "A" - "B" + "2");
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
