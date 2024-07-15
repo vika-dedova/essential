@@ -1,3 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
