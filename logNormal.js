@@ -1,2 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const executableName = getExecutableName(channel, appName);
