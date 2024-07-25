@@ -1,3 +1,2 @@
-console.log("1 || 2 = "+(1 || 2));
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const uniqueArr = (arr) => [...new Set(arr)];
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const results = await Promise.all(resultingPromises);
