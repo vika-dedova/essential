@@ -1,3 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const executableName = getExecutableName(channel, appName);
+function myAPITS(someString: string, someNum: number) { ... };
+const repositoryRootPath = path.resolve(__dirname, '..');
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
