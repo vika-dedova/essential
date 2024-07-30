@@ -1,2 +1,2 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+console.log("1 || 2 = "+(1 || 2));
